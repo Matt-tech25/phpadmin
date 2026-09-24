@@ -4,7 +4,7 @@ include 'config/database.php';
 
 if (isset($_SESSION["role"])) {
   
-    if ($_SESSION["role"] === "admin") {
+    if ($_SESSION["role"] == "admin") {
         header("Location: admin/dashboard.php");
     } else {
         // Invalid credentials
