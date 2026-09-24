@@ -73,7 +73,7 @@ $result = mysqli_query($conn,$sql);
             </div>
 
             <a
-                href="subject_form.html"
+                href="create.php"
                 class="btn btn-primary"
             >
                 + Add Subject
