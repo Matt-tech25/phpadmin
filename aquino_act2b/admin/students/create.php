@@ -117,7 +117,7 @@ if(isset($_POST["save"])){
                     </button>
 
                     <a
-                        href="students.html"
+                        href="../dashboard.php"
                         class="btn btn-secondary"
                     >
                         Cancel

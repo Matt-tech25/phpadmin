@@ -95,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["save"])) {
                         Save Subject
                     </button>
 
-                    <a href="index.php" class="btn btn-secondary">
+                    <a href="../dashboard.php" class="btn btn-secondary">
                         Cancel
                     </a>
 
