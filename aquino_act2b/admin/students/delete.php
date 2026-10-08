@@ -3,7 +3,7 @@
   include "../../config/database.php";
 
   if(!isset($_SESSION["role"]) || $_SESSION["role"] != "admin"){
-    header("location: ../../index.php");
+    header("location: ../../index.php?message=Student Deleted Successfully");
     exit;
 }
 

@@ -4,7 +4,7 @@ include "../../config/database.php";
 
 // Only admin users can access this page
 if (!isset($_SESSION["role"]) || $_SESSION["role"] !== "admin") {
-    header("Location: ../../../index.php");
+    header("Location: ../../../index.php?message=Student Added Successfully");
     exit;
 }
 
